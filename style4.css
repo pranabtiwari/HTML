@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(27, 193, 193);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 103vh;
+    margin: 0;
+
+}
+.first{
+    background-color: wheat;
+    border-radius: 50px;
+    text-align: center;
+    width: 20pc;
+    height: 60%;
+    padding: 10px;
+    box-shadow:0px 2px 10px;
+}
+.first h2{
+    margin: 38px;
+    color: black;
+    text-align: center;
+
+}
+.first1 label{
+    display: block;
+    position: relative;
+    right: 55px;
+    margin-bottom: 1px;
+}
+.first2 label{
+    display: block;
+    position: relative;
+    right: 30px;
+    margin-bottom: 1px;
+}
+.first1 input{
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.first2 input{
+    margin-bottom: 5px; 
+    padding: 5px;
+}
+.button{
+    border: none;
+    padding:10px;
+    margin-bottom: 8px;
+    border-radius: 15px;
+    background-color:  #0056b3;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button :hover{
+    background-color: #0056b3   ;
+}
+.login-link a{
+    color: rgb(22, 98, 98);
+    text-decoration: none;
+}
+.login-link a:hover {
+    text-decoration: underline;
+}
